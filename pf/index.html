@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ESPORTS NEXUS — গ্লোবাল পিসি গেমিং, ইস্পোর্টস এবং গেমিং ক্যারিয়ারের বাংলা ও ইংরেজি মহাপোর্টাল।">
+  <title>ESPORTS NEXUS — Beyond Gaming. Into Greatness.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Orbitron:wght@500;600;700;800&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="loader" id="loader"><div class="loader-mark"><span></span><b>EN</b></div></div>
+  <header class="nav-shell" id="top">
+    <nav class="navbar container" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Esports Nexus home">
+        <span class="brand-glyph">EN</span><span class="brand-type">ESPORTS <b>NEXUS</b></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Open menu"><span></span><span></span><span></span></button>
+      <div class="nav-links" id="navLinks">
+        <a href="#games" data-i18n="navGames">গেমস</a>
+        <a href="#players" data-i18n="navPlayers">খেলোয়াড়</a>
+        <a href="#countries" data-i18n="navRegions">দেশসমূহ</a>
+        <a href="#careers" data-i18n="navCareers">ক্যারিয়ার</a>
+        <a href="#news" data-i18n="navNews">নিউজ</a>
+      </div>
+      <div class="nav-actions">
+        <button class="icon-button" id="searchOpen" aria-label="Search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></button>
+        <div class="language-switch" aria-label="Language switcher">
+          <button class="lang-btn active" data-lang="bn">বাংলা</button><button class="lang-btn" data-lang="en">EN</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="hero-bg"></div><div class="hero-grid"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span></span><b data-i18n="heroEyebrow">গ্লোবাল ইস্পোর্টস রেভ্যুলেশন</b></div>
+          <h1 id="heroTitle"><span data-i18n="heroTitleA">গেমিংয়ের সীমা পেরিয়ে</span><em data-i18n="heroTitleB">সাফল্যের</em> <span data-i18n="heroTitleC">নগরে।</span></h1>
+          <p data-i18n="heroDesc">প্রতিযোগিতামূলক পিসি গেমিংয়ের বিশ্ব, প্রফেশনাল খ্যাতি ও ভবিষ্যৎ ক্যারিয়ার—সবকিছু এক অনন্য প্ল্যাটফর্মে।</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#games"><span data-i18n="exploreEsports">ইস্পোর্টস অন্বেষণ</span><i>↗</i></a>
+            <a class="btn btn-ghost" href="#roadmap"><span data-i18n="startCareer">ক্যারিয়ার শুরু করুন</span><i>→</i></a>
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+          <div class="hero-card">
+            <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=900&q=85" alt="Crowd at an international esports arena">
+            <div class="live-pill"><i></i><span data-i18n="liveGlobal">গ্লোবাল লিডারবোর্ড</span></div>
+            <div class="hero-card-footer"><span># 01</span><b data-i18n="arenaFocus">আরেনা ফোকাস</b></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats-strip" aria-label="Industry statistics">
+      <div class="container stats-grid">
+        <article><strong data-count="3.42" data-suffix="B">0</strong><span data-i18n="statAudience">ভবিষ্যত গেমার দর্শক</span><small data-i18n="statSource1">Newzoo 2024 অনুমান</small></article>
+        <article><strong data-count="72.4" data-prefix="$" data-suffix="M+">0</strong><span data-i18n="statPrize">ডোটা ২ সর্বাধিক ট্র্যাকড পুরস্কার</span><small data-i18n="statSource2">Esports Earnings · 2025</small></article>
+        <article><strong data-count="10000" data-suffix="+">0</strong><span data-i18n="statPlayers">নথিভুক্ত ইস্পোর্টস অ্যাথলিট</span><small data-i18n="statSource3">Esports Earnings · সময়কালভিত্তিক</small></article>
+        <article><strong data-count="11">0</strong><span data-i18n="statGames">অভিজাত প্রতিযোগিতামূলক গেম</span><small data-i18n="statSource4">এই হাবে কিউরেটেড</small></article>
+      </div>
+    </section>
+
+    <section class="section" id="games">
+      <div class="container">
+        <div class="section-heading reveal"><div><div class="kicker" data-i18n="kicker1">গ্লোবাল কমপিটিটিভ হাব</div><h2 data-i18n="gamesTitle">বিশ্বের জনপ্রিয় পিসি গেমস</h2></div><div class="filter-pills" id="gameFilters"><button class="active" data-filter="all">All</button><button data-filter="fps">FPS</button><button data-filter="moba">MOBA</button><button data-filter="battle">Battle Royale</button></div></div>
+        <div class="game-grid" id="gameGrid"></div>
+      </div>
+    </section>
+
+    <section class="section dark-section" id="players">
+      <div class="container">
+        <div class="section-heading reveal"><div><div class="kicker" data-i18n="kicker2">আইকনরা নকশা তৈরি করেন</div><h2 data-i18n="playersTitle">বিখ্যাত ইস্পোর্টস প্লেয়ার</h2></div><a class="text-link" href="#news" data-i18n="viewStories">খেলোয়াড় স্টোরি দেখুন →</a></div>
+        <div class="player-grid" id="playerGrid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="streamers">
+      <div class="container">
+        <div class="section-heading reveal"><div><div class="kicker" data-i18n="kicker3">গেমিংয়ের মুখ</div><h2 data-i18n="streamersTitle">সফল গ্লোবাল ক্রিয়েটর</h2></div></div>
+        <div class="streamer-grid" id="streamerGrid"></div>
+      </div>
+    </section>
+
+    <section class="section country-section" id="countries">
+      <div class="container">
+        <div class="section-heading reveal"><div><div class="kicker" data-i18n="kicker4">দেশজুড়ে গেমিং ইকোসিস্টেম</div><h2 data-i18n="countriesTitle">কোথায় গেমিং জনপ্রিয়?</h2></div></div>
+        <div class="country-layout">
+          <div class="country-map"><div class="map-dots" id="countryDots"></div><div class="map-caption"><span data-i18n="mapCaption">একটি দেশ নির্বাচন করুন</span><b id="selectedCountryName">Bangladesh</b></div></div>
+          <aside class="country-panel" id="countryPanel"></aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark-section" id="prizes">
+      <div class="container">
+        <div class="section-heading reveal"><div><div class="kicker" data-i18n="kicker5">বিজয়ের অর্থনৈতিক মাত্রা</div><h2 data-i18n="prizesTitle">প্রাইজ পুল তুলনা</h2></div><div class="chart-toggle"><button class="active" data-chart="bar">Bar</button><button data-chart="rank">Rank</button></div></div>
+        <div class="prize-layout"><div class="chart-wrap"><canvas id="prizeChart" aria-label="Esports prize pool comparison chart"></canvas></div><div class="prize-list" id="prizeList"></div></div>
+        <p class="source-note" data-i18n="prizeNote">সমস্ত অঙ্ক নির্দিষ্ট বছর ও চ্যাম্পিয়নশিপের অফিসিয়াল বা ট্র্যাকড মোট প্রাইজ পুল। পৃথক প্লেয়ার আয় নয়।</p>
+      </div>
+    </section>
+
+    <section class="section" id="economy">
+      <div class="container">
+        <div class="section-heading reveal"><div><div class="kicker" data-i18n="kicker6">ডিজিটাল অর্থনীতি</div><h2 data-i18n="economyTitle">ইস্পোর্টস দেশের অর্থনীতিকে কীভাবে শক্ত করবে?</h2></div></div>
+        <div class="economy-grid" id="economyGrid"></div>
+      </div>
+    </section>
+
+    <section class="section dark-section" id="normalization">
+      <div class="container split-section">
+        <div class="split-copy reveal"><div class="kicker" data-i18n="kicker7">একটি বৈধ পেশা ও সৃজনশীল শিল্প</div><h2 data-i18n="normalizeTitle">প্রতিটি দেশ পিসি গেমিংকে স্বাভাবিকীকরণ কেন করবে</h2><p data-i18n="normalizeDesc">গেমিং একা প্রতিভা নয়—এটি ডিজিটাল দক্ষতা, দলগত যোগাযোগ, নেতৃত্ব এবং আন্তর্জাতিক সহযোগিতার পরিবেশ তৈরি করে।</p><div class="misconceptions"><div><b>01</b><span data-i18n="myth1">গেমিং অগত্যা সময়ের অপচয় নয়</span></div><div><b>02</b><span data-i18n="myth2">ইস্পোর্টসের জন্য কৌশল ও কঠোর অনুশীলন লাগে</span></div><div><b>03</b><span data-i18n="myth3">শিক্ষা, ঘুম ও স্বাস্থ্য সর্বদা অগ্রাধিকার</span></div></div></div>
+        <div class="benefit-panel reveal"><h3 data-i18n="benefitsTitle">পিসি গেমিংয়ের উপকার</h3><div class="benefit-list" id="benefitList"></div></div>
+      </div>
+    </section>
+
+    <section class="section" id="roadmap">
+      <div class="container">
+        <div class="section-heading reveal"><div><div class="kicker" data-i18n="kicker8">এখান থেকেই শুরু</div><h2 data-i18n="roadmapTitle">প্রফেশনাল ইস্পোর্টস প্লেয়ার যাত্রা</h2></div></div>
+        <div class="roadmap" id="roadmapGrid"></div>
+        <aside class="roadmap-advice"><span data-i18n="healthyAdvice">সুষম প্রস্তুতি:</span> <b data-i18n="healthyAdviceText">নিয়মিত বিশ্রাম, ব্যায়াম, স্বাস্থ্যকর ঘুম এবং পূর্ণাঙ্গ শিক্ষা অগ্রাধিকার দিন।</b></aside>
+      </div>
+    </section>
+
+    <section class="section dark-section" id="streamer-guide">
+      <div class="container split-section">
+        <div><div class="kicker" data-i18n="kicker9">ক্রিয়েটর ক্যারিয়ার</div><h2 data-i18n="streamGuideTitle">সফল গেমিং স্ট্রিমার কীভাবে হবেন?</h2><p data-i18n="streamGuideDesc">স্ট্রিমিংয়ে দর্শক তৈরি করতে সময়, ধারাবাহিকতা ও উৎপাদন দক্ষতা লাগে—সাফল্য বা আয় নিশ্চিত নয়।</p></div>
+        <div class="setup-card"><div class="setup-head"><span data-i18n="beginnerSetup">বিগিনার সেটআপ</span><b>$400–$900</b></div><ul><li data-i18n="setupPc">গেমিং PC / কনসোল ক্যাপচার</li><li data-i18n="setupMic">USB মাইক্রোফোন</li><li>1080p Webcam</li><li>OBS Studio</li><li data-i18n="setupLight">বেসিক লাইট ও ভেন্টিলেশন</li></ul></div>
+      </div>
+      <div class="container guide-grid" id="streamGuideGrid"></div>
+    </section>
+
+    <section class="section" id="careers">
+      <div class="container">
+        <div class="section-heading reveal"><div><div class="kicker" data-i18n="kicker10">খেলার বাইরে অসীম সুযোগ</div><h2 data-i18n="careersTitle">ইস্পোর্টস ক্যারিয়ার</h2></div></div>
+        <div class="career-grid" id="careerGrid"></div>
+      </div>
+    </section>
+
+    <section class="section bangladesh-section" id="bangladesh">
+      <div class="container">
+        <div class="bangladesh-head"><div><div class="kicker" data-i18n="kicker11">বাংলাদেশের ইস্পোর্টস ভবিষ্যৎ</div><h2 data-i18n="bdTitle">সফরের পরবর্তী লেভেল তৈরি করুন</h2></div><div class="bd-badge">BANGLADESH / 2026</div></div>
+        <div class="bd-layout"><div class="bd-copy"><p data-i18n="bdIntro">বাংলাদেশে গেমিং কমিউনিটি সক্রিয়, তবে ইস্পোর্টস ইকোসিস্টেমকে দীর্ঘমেয়াদি অবকাঠামো, টুর্নামেন্ট পরিচালনা ও কাঠামোপ্রাপ্ত জব পাথওয়ে দরকার।</p><div class="recommendation-grid" id="bdRecommendations"></div></div><div class="bd-opportunity"><h3 data-i18n="bdPotential">কেন সম্ভাবনা আছে</h3><div id="bdOpportunities"></div></div></div>
+      </div>
+    </section>
+
+    <section class="section dark-section" id="news">
+      <div class="container">
+        <div class="section-heading reveal"><div><div class="kicker" data-i18n="kicker12">ইডিটোরিয়াল ব্রিফিং</div><h2 data-i18n="newsTitle">গেমিং নিউজ ও আপডেট</h2></div><span class="editorial-label" data-i18n="editorialLabel">SAMPLE / EDITORIAL CONTENT</span></div>
+        <div class="news-grid" id="newsGrid"></div>
+      </div>
+    </section>
+
+    <section class="section faq-section" id="faq">
+      <div class="container faq-layout"><div><div class="kicker" data-i18n="kicker13">আপনার প্রশ্ন</div><h2 data-i18n="faqTitle">প্রায়শই জিজ্ঞাসিত</h2></div><div class="accordion" id="faqList"></div></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand"><a class="brand" href="#top"><span class="brand-glyph">EN</span><span class="brand-type">ESPORTS <b>NEXUS</b></span></a><p data-i18n="footerDesc">গ্লোবাল গেমিংয়ের তথ্য, ক্যারিয়ার ও ইস্পোর্টস সংস্কৃতির জন্য একটি নির্ভরযোগ্য বাংলা–ইংরেজি হাব।</p></div>
+      <div><h4 data-i18n="footerExplore">অন্বেষণ</h4><a href="#games" data-i18n="navGames">গেমস</a><a href="#players" data-i18n="navPlayers">খেলোয়াড়</a><a href="#countries" data-i18n="navRegions">দেশসমূহ</a></div>
+      <div><h4 data-i18n="footerCareer">ক্যারিয়ার</h4><a href="#roadmap" data-i18n="playerRoadmap">প্লেয়ার রোডম্যাপ</a><a href="#streamer-guide" data-i18n="creatorGuide">ক্রিয়েটর গাইড</a><a href="#careers" data-i18n="industryJobs">ইন্ডাস্ট্রি জবস</a></div>
+      <div><h4 data-i18n="footerConnect">যোগাযোগ</h4><p>hello@esportsnexus.example</p><div class="socials"><a href="#" aria-label="YouTube">YT</a><a href="#" aria-label="Discord">DC</a><a href="#" aria-label="X">X</a></div></div>
+    </div>
+    <div class="container footer-bottom"><span>© 2026 ESPORTS NEXUS</span><div class="footer-language"><button data-lang="bn">বাংলা</button><button data-lang="en">English</button></div></div>
+  </footer>
+
+  <div class="search-modal" id="searchModal" role="dialog" aria-modal="true" aria-label="Search"><button class="search-close" id="searchClose">×</button><div class="search-inner"><label data-i18n="searchLabel">Nexus-এ অনুসন্ধান করুন</label><input id="searchInput" type="search" placeholder="Search games, players, careers..."><div id="searchResults"></div></div></div>
+  <button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+  <script src="js/script.js"></script>
+</body>
+</html>
